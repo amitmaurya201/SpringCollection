@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+            xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+        
+           <bean id ="std" class="com.amit.model.Student">
+           <property name = "mobilelist">
+           <list>
+           <value>Redmi</value>
+           <value>Oppo</value>
+           <value>Vivo</value>
+           <value>Realme</value>
+           <value>Moto</value>
+           <value>Nokia</value>
+           <value>Samsung</value>
+           <value>Poco</value>  
+           </list>
+           </property>
+            <property name = "mobileset">
+           <set>
+           <value>Redmi</value>
+           <value>Oppo</value>
+           <value>Vivo</value>
+           <value>Realme</value>
+           <value>Moto</value>
+           <value>Nokia</value>
+           <value>Samsung</value>
+           <value>Poco</value>  
+           </set>
+           </property>    
+            <property name = "mobilemap">
+           <map>
+           <entry key="1" value="Redmi"></entry>
+            <entry key="2" value="Oppo"></entry>
+             <entry key="3" value="Vivo"></entry>
+              <entry key="4" value="Realme"></entry>
+               <entry key="5" value="Moto"></entry>
+                 <entry key="6" value="Nokia"></entry>
+                  <entry key="7" value="Samsung"></entry>
+                   <entry key="8" value="Poco"></entry>
+                  
+                
+           </map>
+           </property>    
+            <property name = "mobileprops">
+           <props>
+         <prop key="1">Redmi</prop>
+           <prop key="2">Oppo</prop>
+             <prop key="3">Vivo</prop>
+               <prop key="4">Realme</prop>
+                 <prop key="5">Moto</prop>
+                   <prop key="6">Nokia</prop>
+                     <prop key="7">Samsung</prop>
+                       <prop key="8">Poco</prop>
+                       
+                      
+                           
+           </props>
+           </property>    
+               
+        </bean>
+        </beans>
